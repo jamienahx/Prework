@@ -1,0 +1,10 @@
+Weight = input("Weight: ")
+Unit = input("(K)g or (L)bs: ")
+
+if ("l" or "L" in Unit):
+  Final_output = float(Weight)*0.453592
+  print("Weight in KG:", Final_output,"KG")
+
+else: 
+  Final_output2 = float(Weight)*2.20462
+  print("Weight in Lbs:", Final_output2,"LBS" )
